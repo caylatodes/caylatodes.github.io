@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@100&display=swap');
+
+body {
+  background-color: #DDEDF0;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Luckiest Guy', cursive;
+  padding-left: 10px;
+  font-size: 50px;
+}
+
+header {
+  padding: 10px;
+  padding-left: 150px;
+  background-color: #000000;
+}
+
+
+h3 {
+  color: #000000;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Luckiest Guy', cursive;
+  color: #0D67B1;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+}
+
+ol {
+  font-family: 'Montserrat', sans-serif;
+}
+
+table {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000px;
+  padding-left: 160px;
+  padding-right: 80px;
+}
+
+img {
+  border: 3px #000000 solid;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:default {
+  color: #1B0066;
+}
+
+a:visited {
+  font-style: italic;
+  color: #5FA3DE;
+}
+
+a:hover {
+  color: #5C6B5D;
+}
+
+a:active {
+  color: #7F7F7F;
+}
+
+#intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-bottom: 60px;
+}
+
+#introimage {
+  padding-top: 40px;
+  padding-left: 130px;
+}
+
+#introtext {
+  padding-right: 170px;
+  padding-top: 40px;
+}
+
+#geography {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-bottom: 60px;
+}
+
+#geoimage {
+  padding-top: 10px;
+  padding-left: 0px;
+}
+
+#geotext {
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-left: 170px;
+}
+
+#climatepeople {
+  display: grid;
+  grid-template-columns: repeat(2, .5fr);
+  grid-gap: 50px;
+  margin-bottom: 60px;
+}
+
+#climate {
+  padding-top: 10px;
+  padding-right: 200px;
+  text-align: right;
+}
+
+#peoplesociety {
+  padding-right: 120px;
+  padding-top: 10px;
+  padding-left: 170px;
+}
+
+#landuse {
+  padding-left: 290px;
+}
+
+#landcap {
+  padding-left: 80px;
+}
+
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#linkvid {
+  padding-left: 40px
+}
+
+footer {
+  background-color:
+  padding: 30px;
+}
+
+footer p{
+  padding-left:100px;
+  background-color: #FFFFFF;
+}
