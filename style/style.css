@@ -1,212 +1,222 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fredoka+One&family=Spartan:wght@100;300;800&display=swap');
 
-
-@media only screen and (min-width: 350px){
-
-  body{
-    background-color: #FCECE3;
+@media only screen and (min-width: 350px) {
+  body {
+    background-color: #FFFFFF;
   }
 
-  #topname{
+  #topname {
     color: #7BABA8;
     font-size: 40px;
-    margin-left:0px;
+    margin-left: 0px;
   }
 
-  h1{
+  h1 {
     font-family: 'Fredoka One', cursive, Tahoma, Merriweather;
   }
 
-  h2{
+  h2 {
     font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
     color: #7BABA8;
   }
 
-  h3{
+  h3 {
     font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
     color: #7BABA8;
   }
 
-  p{
+  p {
     font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
     line-height: 30px;
     font-size: 25px;
   }
 
-  figcaption{
+  figcaption {
     font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
     font-style: italic;
     font-size: 12px;
   }
 
-  nav{
+  nav {
     margin-top: 30px;
   }
 
-  nav a{
+  nav a {
     font-family: 'Spartan', sans-seri, Tahoma, Merriweatherf;
-    margin-left:8px;
+    margin-left: 8px;
     font-size: 25px;
   }
 
   a:link {
-    color: #000000;
+    color: grey;
     text-decoration: none;
   }
 
   a:visited {
+    color: black;
     font-style: italic;
-    color: #5FA3DE;
   }
 
   a:hover {
-    color: #5C6B5D;
+    background-color: #FCECE3;
   }
 
   a:active {
-    color: #7F7F7F;
+    color: #7BABA8;
   }
 
-  #photogroup{
-    margin-left:40px;
+  #photogroup {
+    margin-left: 40px;
   }
 
-  #topname{
-    margin-left:20px;
+  #topname {
+    margin-left: 20px;
   }
 
-  #introtext{
-    margin-left:10px;
+  #introtext {
+    margin-left: 10px;
   }
 
-  #phototext{
-    margin-left:40px;
-    margin-top:70px;
+  #phototext {
+    margin-left: 40px;
+    margin-top: 70px;
   }
 
-  .gridtxt{
+  .gridtxt {
     grid-area: textpart;
     margin-top: 0px;
   }
 
-  #designgrid{
-    margin-left:30px;
+  #designgrid {
+    margin-left: 30px;
   }
 
-  #designtop{
-    margin-left:30px;
-    margin-top:70px;
+  #designtop {
+    margin-left: 30px;
+    margin-top: 70px;
   }
 
-  #travelgrid{
+  #travelgrid {
     margin-left: 10px;
   }
 
-  .travelfigs{
+  .travelfigs {
     margin-left: 0px;
     margin-bottom: 50px;
   }
 
-  #traveltop{
-    margin-left:10px;
-    margin-top:70px;
+  #traveltop {
+    margin-left: 10px;
+    margin-top: 70px;
   }
 
-  footer{
+  footer {
     background-color: #7BABA8;
-    height:40px;
+    height: 40px;
     margin-top: 20px;
     padding-left: 20px;
   }
 
-.travelfigs img{
-  width:330px;
+  .travelfigs img {
+    width: 330px;
+  }
+
+  .imgtextgrid img {
+    width: 330px;
+  }
+
+  #self {
+    width: 300px;
+  }
+
+  #viewresume {
+    font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
+    color: #7BABA8;
+    font-weight: bold;
+  }
+
+  footer p {
+    font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
+    padding: 5px;
+    color: #FCECE3;
+  }
 }
 
-.imgtextgrid img{
-  width:330px;
-}
-
-#self{
-  width:300px;
-}
-
-}
-
-
-@media only screen and (min-width: 768px){
-
-  header h1{
+@media only screen and (min-width: 768px) {
+  header h1 {
     color: #7BABA8;
     margin-left: 20px;
     font-size: 35px;
   }
 
-  p{
+  p {
     line-height: 22px;
     font-size: 16px;
   }
 
-  figcaption{
+  figcaption {
     font-size: 12px;
   }
 
-  nav{
+  nav {
     margin-top: 30px;
-
   }
 
-  nav a{
-    margin-left:50px;
+  nav a {
+    margin-left: 50px;
     font-size: 18px;
   }
 
-  header{
+  header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 20px;
-    margin-top:30px;
+    margin-top: 30px;
   }
 
-  #topname{
-    margin-left:100px;
+  #topname {
+    margin-left: 100px;
   }
 
-  #introgrid{
+  #introgrid {
     display: grid;
     width: 1000px;
     grid-template-columns: 1fr, 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "image text";
     grid-gap: 100px;
-    margin-left: 250px;
-    margin-top: 70px;
+    padding-left: 150px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+    margin-top: 40px;
+    background-color: #FCECE3;
   }
 
-  #intotext{
+  #intotext {
     grid-area: text;
   }
 
-  #portrait{
+  #portrait {
     grid-area: image;
-    margin-top:30px;
+    margin-top: 30px;
   }
 
-  #photogroup{
-    margin-left:100px;
+  #photogroup {
+    margin-left: 100px;
     display: grid;
-    grid-template-columns: repeat(5,250px);
+    grid-template-columns: repeat(5, 250px);
     grid-gap: 7px;
   }
 
-  #phototext{
-    margin-left:100px;
-    margin-top:70px;
+  #phototext {
+    margin-left: 100px;
+    margin-top: 70px;
   }
 
-  .imgtextgrid{
+  .imgtextgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "image textpart";
@@ -214,53 +224,52 @@
     grid-gap: 100px;
   }
 
-  .gridtxt{
+  .gridtxt {
     grid-area: textpart;
     margin-top: 0px;
   }
 
-  #designgrid{
-    margin-left:100px;
-    width:1200px;
-  }
-
-  #designtop{
-    margin-left:100px;
-    margin-top:70px;
-  }
-
-  #travelgrid{
+  #designgrid {
     margin-left: 100px;
-    width:900px;
+    width: 1200px;
   }
 
-  .travelfigs{
+  #designtop {
+    margin-left: 100px;
+    margin-top: 70px;
+  }
+
+  #travelgrid {
+    margin-left: 100px;
+    width: 900px;
+  }
+
+  .travelfigs {
     margin-left: 0px;
     margin-bottom: 50px;
   }
 
-  #traveltop{
-    margin-left:100px;
-    margin-top:70px;
+  #traveltop {
+    margin-left: 100px;
+    margin-top: 70px;
   }
 
-  footer{
+  footer {
     background-color: #7BABA8;
-    height:30px;
+    height: 30px;
     margin-top: 20px;
     padding-left: 20px;
   }
 
-  .travelfigs img{
-    width:900px;
+  .travelfigs img {
+    width: 900px;
   }
 
-  .imgtextgrid img{
-    width:500px;
+  .imgtextgrid img {
+    width: 500px;
   }
 
-  #self{
-    width:388px;
+  #self {
+    width: 388px;
   }
-
 }
