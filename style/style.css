@@ -135,6 +135,11 @@
     font-weight: bold;
   }
 
+  .gridtxt a{
+    font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
+    color: #7BABA8;
+  }
+
   footer p {
     font-family: 'Spartan', sans-serif, Tahoma, Merriweather;
     padding: 5px;
@@ -143,6 +148,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+
   header h1 {
     color: #7BABA8;
     margin-left: 20px;
@@ -195,8 +201,9 @@
     background-color: #FCECE3;
   }
 
-  #intotext {
+  #introtext {
     grid-area: text;
+    margin-top: 8px;
   }
 
   #portrait {
@@ -259,6 +266,7 @@
     height: 30px;
     margin-top: 20px;
     padding-left: 20px;
+    color: #7BABA8;
   }
 
   .travelfigs img {
